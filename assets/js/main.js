@@ -293,7 +293,7 @@ function renderCaptchaGallery() {
         ).join('');
 
         // Use first GIF for preview (index 0)
-        const gifPath = `assets/gifs/${captcha.id}_0.gif`;
+        const gifPath = `assets/gifs/${captcha.name}_0.gif`;
 
         return `
             <div class="captcha-card" data-gaps="${captcha.gaps.join(',')}" style="animation-delay: ${index * 0.05}s">

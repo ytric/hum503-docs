@@ -2,6 +2,11 @@
 // Next-Gen CAPTCHAs - Main JavaScript
 // ========================================
 
+
+
+
+
+
 // CAPTCHA Data - 27 types with metadata from the paper
 const captchaData = [
     {
